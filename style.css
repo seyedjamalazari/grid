@@ -1,0 +1,53 @@
+@font-face {
+    font-family: roya;
+    src: url('fonts/RoyaB.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roya;
+    src: url('fonts/RoyaR.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: roya;
+    direction: rtl;
+    background-color: #eee;
+    padding: 0;
+    margin: 0;
+    
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+#nav{
+    background-color: black;
+    color: blanchedalmond;
+    bottom: 1px solid gray;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    
+}
