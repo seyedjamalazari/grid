@@ -51,3 +51,20 @@ textarea {
     position: fixed;
     
 }
+#nav span{
+    width: 30px;
+    height: 30px;
+    float: right;
+    background-image: url(image/menu.png);
+    border: 1px solid gray;
+    margin: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#nav ul{
+    display: none;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    top: 51px;
+}
