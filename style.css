@@ -121,9 +121,10 @@ textarea {
 }
 .item{
     text-align: center;
-    margin: 15px auto;
+    margin:0px auto;
     background-color: white;
     max-width: 480px;
+    align-items: center;
 }
 .item:hover{
     box-shadow: 0 0 3px 1px black;
